@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,300');
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' ,sans-serif;
+}
+
+.loading{
+  background: url('../img/loading.svg') no-repeat center center;
+  
+}
+.lang-choice-container{
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.lang-choice-container a {
+  margin-right: 7px;
+  text-decoration-line: none;
+}
+.selected{
+  border-bottom: 5px solid red;
+}
+.lang-choice-container a:hover{
+  border-bottom: 5px solid red;
+}
+
+.content{
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 900px) {
+  .col { width: 100%; }
+}
+
+.col{
+  width: 50%;
+}
+
+.pot-name{
+  background: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
+  padding-bottom: 12px;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 16px;
+  font-weight: bold; 
+}
+.pot-item{
+  margin-bottom: 15px;
+  display: inline-table;
+  height: 250px;
+  width: 85%;
+}
+
